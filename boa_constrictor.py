@@ -22,7 +22,7 @@ class Boa_constrictor(Animal_exotico):
     #Método que agrega un ratón a la cuenta de ratones comidos
     def agrega_ratones_comidos(self, cantidad = 1) -> None:
         #Si el número de ratones comidos es 10, no aumenta el contador
-        if self.ratones_comidos < 10:
+        if self.ratones_comidos < 20:
             self.ratones_comidos += cantidad
         else:
             #Se lanzará un ValueError con el mensaje “Demasiados Ratones!”
